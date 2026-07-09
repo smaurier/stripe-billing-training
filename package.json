@@ -1,0 +1,17 @@
+{
+  "name": "stripe-billing-course",
+  "version": "1.0.0",
+  "description": "Billing SaaS avec Stripe & NestJS : products/prices, Checkout, webhooks, abonnements, portail, freemium, dunning, facturation/légal, mise en production (débutant → expert)",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
