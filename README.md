@@ -8,6 +8,18 @@
 
 Cours ajouté pour le modèle freemium TribuZen — compétence indispensable sur toute mission SaaS.
 
+<!-- labs-gestes:start -->
+## Labs — refonte du 22/09/2026 : un lab = un geste métier complet
+
+> Règle qualité 5 du parcours : chaque lab est **un geste métier complet**, sous deux formes — **Zéro** (construire de zéro un artefact réel et entier) ou **Intervention** (modifier de l'existant avec consommateurs, findings avant code, non-régression). Un lab n'entre en file qu'avec un **oracle exécutable** (`src/` starter · `test/` · `solution/` séparée). Les labs historiques de ce cours (un concept par lab, sans oracle) restent dans `labs/` jusqu'à remplacement et **ne sont plus la file**. Cible détaillée : [`docs/gestes-complets.md`](../docs/gestes-complets.md). État : **0/2 avec oracle**.
+
+| # | Lab | Forme | Geste | Oracle |
+|---|-----|-------|-------|--------|
+| 01 | `lab-01-freemium-de-zero` | Zéro | Checkout, webhook signé, gate NestJS, portail | · à écrire |
+| 02 | `lab-02-webhook-perdu` | Intervention | rejouer, idempotence | · à écrire |
+
+<!-- labs-gestes:end -->
+
 ## Modules
 
 | # | Module | Durée |
