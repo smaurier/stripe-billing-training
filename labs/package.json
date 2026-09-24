@@ -1,0 +1,22 @@
+{
+  "name": "stripe-billing-labs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Oracles exécutables des labs Stripe Billing (règle : un lab = un geste métier complet). Aucun appel réseau réel vers Stripe (pas de clé de test fournie) : la signature webhook est vérifiée par le vrai algorithme HMAC de Stripe, en local ; la création de session Checkout/portail passe par un port, documenté comme hors de portée sans compte Stripe réel.",
+  "type": "module",
+  "scripts": {
+    "lab:01": "vitest run --root lab-01-freemium-de-zero",
+    "solution:01": "vitest run --root lab-01-freemium-de-zero --config vitest.solution.config.ts",
+    "lab:02": "vitest run --root lab-02-webhook-perdu",
+    "solution:02": "vitest run --root lab-02-webhook-perdu --config vitest.solution.config.ts"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0",
+    "vitest": "5.0.1"
+  }
+}
